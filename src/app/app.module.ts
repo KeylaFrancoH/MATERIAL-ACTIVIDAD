@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { RedesComponent } from './redes/redes.component';
-import { SplashComponent } from './splash/splash.component';
-import { PrincipalComponent } from './principal/principal.component';
+//import { SplashComponent } from './splash/splash.component';
+//import { PrincipalComponent } from './principal/principal.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,8 +20,8 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     CabeceraComponent,
     RedesComponent,
-    SplashComponent,
-    PrincipalComponent
+   // SplashComponent,
+  //  PrincipalComponent
   ],
   imports: [
     BrowserModule,
